@@ -2,9 +2,9 @@ import './Button.css'
 
 
 const Button=({symbol, handlleClick})=>{
-    return <button className='button-wrapper' onClick={()=>handlleClick(symbol)} >
+    return < className='button-wrapper' onClick={()=>handlleClick(symbol)} >
 {symbol}
-    </button>
+    </div>
 }
 
 export default Button
